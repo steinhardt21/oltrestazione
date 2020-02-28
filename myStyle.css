@@ -1,0 +1,77 @@
+body
+{
+  font-size: 16px;
+  background-color: #FEE487;
+  font-family: Arial_Narrow_Bold;
+}
+
+@font-face {
+  font-family: Arial_Narrow_Bold;
+  src: url(font/Arial_Narrow_Bold.ttf);
+}
+
+@font-face {
+  font-family: Arial_Narrow_Bold_Italic;
+  src: url(font/Arial_Narrow_Bold_Italic.ttf);
+}
+
+.away_team
+{
+  font-family: Arial_Narrow_Bold_Italic;
+}
+
+#myContainer
+{
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 3%
+}
+
+.match
+{
+  line-height: 100%;
+}
+
+/* .fixed-row-bottom
+{
+  position: fixed;
+  bottom: 0;
+} */
+
+.dot {
+
+  height: 28px;
+  width: 28px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot_inside {
+
+  height: 18px;
+  width: 18px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.winner
+{
+  background-color: black;
+}
+
+.notPlayed
+{
+  opacity: 0.2;
+  background-color: black;
+}
+
+.lost
+{
+  background-color: #FEE487;
+  border-color: black;
+  border: 2px solid black;
+}
+
+/*MOBILE VERSION*/
