@@ -1,6 +1,6 @@
 body
 {
-  font-size: 16px;
+  font-size: 15px;
   background-color: #FEE487;
   font-family: Arial_Narrow_Bold;
 }
@@ -24,7 +24,7 @@ body
 {
   padding-left: 15%;
   padding-right: 15%;
-  margin-top: 3%;
+  margin-top: 5%;
   z-index:3;
 }
 
@@ -105,6 +105,10 @@ a {
   border: 2px solid black;
 }
 
+.footer_margin
+{
+    margin-bottom: 1%;
+}
 
 /*Rotation logo*/
 #container { margin: 0%; }
