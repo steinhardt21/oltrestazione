@@ -24,9 +24,31 @@ body
 {
   padding-left: 15%;
   padding-right: 15%;
-  margin-top: 3%
+  margin-top: 3%;
+  z-index:3;
 }
 
+span.tab-space
+{
+  padding-left:1em;
+}
+a {
+  color: black;
+}
+
+#logo_players
+{
+  width: 44%;
+  height: 95%;
+}
+
+#logo_written
+{
+  width: 75%;
+  height: 75%;
+  /* position : absolute
+  bottom   : 0 */
+}
 .match
 {
   line-height: 100%;
@@ -84,7 +106,7 @@ body
 }
 
 
-/*ROtation logo*/
+/*Rotation logo*/
 #container { margin: 0%; }
 
 #circle { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden; }
@@ -135,6 +157,18 @@ body
 @keyframes rotate {
     from { transform: rotate(360deg); }
     to { transform: rotate(0); }
+}
+
+/**CONCENTRI CIRCLE**/
+.draw
+{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: black;
+  background-clip: content-box;
+  padding: 7px;
+  border: 2px solid black;
 }
 
 /*MOBILE VERSION*/
