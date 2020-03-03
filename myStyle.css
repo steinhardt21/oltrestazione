@@ -36,6 +36,11 @@ a {
   color: black;
 }
 
+a:hover {
+	text-decoration:none;
+	color: black
+}
+
 #logo_players
 {
   width: 44%;
