@@ -20,6 +20,20 @@ body
   font-family: Arial_Narrow_Bold_Italic;
 }
 
+.coming_soon
+{
+	/* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+	
+	position: fixed;
+	top: 40%;
+	left: 40%;
+	
+	font-size: 2rem;
+}
+
+
 #myContainer
 {
   padding-left: 8%;
